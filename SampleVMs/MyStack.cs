@@ -48,7 +48,7 @@ class MyStack : Stack
         
         for (int i = 0; i < 2; i++)
         {
-            var publicIP = new Azure.Network.PublicIp("publicIP"+ i, new Azure.Network.PublicIpArgs
+            var publicIP = new Azure.Network.PublicIp("publicIP-"+ i, new Azure.Network.PublicIpArgs
             {
                 ResourceGroupName = resourceGroup.Name,
                 AllocationMethod = "Dynamic"
