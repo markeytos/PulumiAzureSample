@@ -1,0 +1,3 @@
+name: SampleVMs
+runtime: dotnet
+description: CreateVMS with cloud Init
